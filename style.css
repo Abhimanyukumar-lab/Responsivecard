@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 23%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+   
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  }
+
+
+  button {
+    background-color: #dbc0d0;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+
+  button:hover {
+    background-color: #e8a4cd;
+    color: #fff;
+  }
+
+  
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .card {
+      width: 30%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 45%;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .card {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
+
+
+  /* user-feedback */
+  
+  .chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+  }
+  
+  .chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  ion-icon{
+  text-align:center;
+  align-items: center;
+  }
